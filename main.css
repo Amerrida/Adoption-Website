@@ -1,7 +1,34 @@
 body {
-    background-color: pink;
-    
+    background-color:salmon;
+    border: 5cm;
 }
 
 
+h1 {
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    color: lavenderblush;
+    
+   
+}
 
+.cat {
+    color: wheat;
+    background-color:orange;
+}
+
+.dog {
+    color:wheat;
+    background-color: mediumblue;
+}
+
+.dino {
+    color:wheat;
+    background-color:forestgreen;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
