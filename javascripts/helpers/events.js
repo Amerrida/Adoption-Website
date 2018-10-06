@@ -1,4 +1,5 @@
-import {sortPets} from "../components/petComponents.js"
+import {petBuilder,pets} from "../components/petComponents.js"
+
 
 const sortEvents = () => {
     const allButton = document.getElementById('all');
@@ -11,5 +12,23 @@ const sortEvents = () => {
     dogButton.addEventListener("click", sortPets);
     dinoButton.addEventListener("click", sortPets);
 };
+
+
+const sortPets = (e) => {
+    const type = e.target.id;
+    if(type === 'all'){
+        petBuilder(pets);
+    } else {
+    const filteredPets = pets.filter(x => x.type === type);
+        petBuilder(filteredPets);
+}};
+
+export {sortPets};
+
+
+
+
+
+
 
 export {sortEvents};
