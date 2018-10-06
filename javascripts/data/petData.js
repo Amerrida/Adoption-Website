@@ -7,7 +7,7 @@ function executeThisCodeAfterFileLoaded () {
 };
 
 function executeThisCodeIfXhrFails () {
-    console.log("I dont understand");
+    console.log("trying something hard");
 };
 
 const getPetsData = () => {

@@ -3,14 +3,11 @@ body {
     border: 5cm;
 }
 
-
 h1 {
     display: flex;
     font-family: cursive;
     justify-content: center;
     color: lavenderblush;
-    
-   
 }
 
 .cat {
