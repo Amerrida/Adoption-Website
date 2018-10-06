@@ -1,9 +1,10 @@
-import {getPets} from "./data/petData.js"
+import {getPetsData} from "./data/petData.js"
 import {sortEvents} from "./helpers/events.js"
 
 const initializeApp = () => {
-    getPets();
+    getPetsData();
     sortEvents();
+
 };
 
 initializeApp();
